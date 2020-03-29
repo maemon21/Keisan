@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var count = 0
+    var plus = 0;
+    var minus = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        count = 10
+        
     }
 
 
